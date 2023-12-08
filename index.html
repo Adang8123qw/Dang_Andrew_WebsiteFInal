@@ -1,11 +1,126 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="index.css">
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <div></div>
-  </body>
-</html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McDonald's</title>
+    <link rel="stylesheet" href="stylesheets/stylesheets.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McDonald's</title>
+    <link rel="stylesheet" href="stylesheet/stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script> 
+        $(document).ready(function(){
+          $("#flip").click(function(){
+            $("#panel").slideDown("slow");
+          });
+        });
+        </script>
+</head>
+<body>
+    <header>
+            <nav class="topnav">
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+            </nav>
+    </header>
+    <main>
+        <section class="container">
+        </section>
+        <section class="reserve-table" id="welcome-section" style="display: none;">
+                <h1 class="welcome-to-kasama-title">Welcome to Kasama</h1>
+                <div class="grid-container">
+                    <div>
+                        <img src="images/fillino food 0.jpg" width="350" alt="watermelon">
+                    </div>
+                    <div class="title">
+                        <h2 class="filipino-experience-and-more-title">Filipino Food Experience and More</h2>
+                        <button class="book-table-button">Book a Table</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bgcolor-cream">
+            <h3 class="popular-foods-title">Popular Foods</h3>
+            <div class="featured-items-container">
+                <div class="featured-item">
+                    <img src="images/fillino food 2.jpg" alt="Featured Item 1">
+                    <h4>Featured Item 1</h4>
+                    <p>Delicious description of Featured Item 1.</p>
+                </div>
+                <div class="featured-item">
+                    <img src="images/fillino food 3.jpg" alt="Featured Item 2">
+                    <h4>Featured Item 2</h4>
+                    <p>Delicious description of Featured Item 2.</p>
+                </div>
+                <div class="featured-item">
+                    <img src="images/fillino food 4.jpg" alt="Featured Item 3">
+                    <h4>Featured Item 3</h4>
+                    <p>Delicious description of Featured Item 3.</p>
+                </div>
+            </div>
+        </section>  
+<section>
+    <h3 class="popular-foods-title">Menu</h3>
+    <div class="menu-items-container">
+        <div class="menu-item">
+            <div class="title">Essentials</div>
+            <img src="images/filipino food 1.jpg" alt="Menu Item 1">
+            <h4>Menu Item 1</h4>
+            <p>Delicious description of Menu Item 1.</p>
+            <button class="buy-now-button">Buy Now</button>
+        </div>
+        <div class="menu-item">
+            <div class="title">Small Plates</div>
+            <img src="images/fillino food 5.jpg" alt="Menu Item 2">
+            <h4>Menu Item 2</h4>
+            <p>Delicious description of Menu Item 2.</p>
+            <button class="buy-now-button">Buy Now</button>
+        </div>
+        <div class="menu-item">
+            <div class="title">Meats and Salads</div>
+            <img src="images/fillino food 6.jpg" alt="Menu Item 3">
+            <h4>Menu Item 3</h4>
+            <p>Delicious description of Menu Item 3.</p>
+            <button class="buy-now-button">Buy Now</button>
+        </div>
+        <div class="menu-item">
+            <div class="title">Breakfast</div>
+            <img src="images/fillino food 7.jpg" alt="Menu Item 4">
+            <h4>Menu Item 4</h4>
+            <p>Delicious description of Menu Item 4.</p>
+            <button class="buy-now-button">Buy Now</button>
+        </div>
+        <div class="menu-item">
+            <div class="title">Soups</div>
+            <img src="images/fillino food 8.jpg" alt="Menu Item 5">
+            <h4>Menu Item 5</h4>
+            <p>Delicious description of Menu Item 5.</p>
+            <button class="buy-now-button">Buy Now</button>
+        </div>
+        <div class="menu-item">
+            <div class="title">Appetizers</div>
+            <img src="images/fillino food 9.png" alt="Menu Item 6">
+            <h4>Menu Item 6</h4>
+            <p>Delicious description of Menu Item 6.</p>
+            <button class="buy-now-button">Buy Now</button>
+        </div>
+    </div>
+</section>
+        <section>
+            <header class="grid-container header">
+                <nav class="nav">
+                    <a href="#">Kasama</a>
+                    <a href="#">Menu</a>
+                    <a href="#">Dining</a>
+                    <a href="#">Gift Cards</a>
+                    <a href="#">Catering</a>
+                </nav> 
+        </section>          
+    </main>
+    <footer>
+    </footer>
+    <script src="Javascript/index.js"></script>
+</body>
+</html> 

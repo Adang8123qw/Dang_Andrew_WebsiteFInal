@@ -1,0 +1,303 @@
+section {
+    padding: 20px;
+}
+.container {
+    height: 400px;
+    background-color: black;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    max-width: 800px;
+    color: white;
+    margin: 0 auto;
+}
+.nav {
+    text-align: left;
+}
+.nav a {
+    color: black;
+    padding: 0 10px;
+}
+.buttons {
+    text-align: right;
+}
+.grid-container-2 {
+    background-image: url('..images/fillino food 0.jpg');
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    z-index: 0;
+}
+.title {
+    position: relative;
+    z-index: 1;
+}
+.menu-item {
+    position: relative;
+}
+.menu-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.menu-item h4 {
+    margin: 10px 0;
+}
+.menu-item p {
+    font-size: 14px;
+}
+.menu-item button {
+    background-color: #A54B4B;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.menu-item button:hover {
+    background-color: #A54B4B;
+}
+.menu-item .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.menu-item.essentials .title::before {
+    content: "Essentials";
+}
+.menu-item.small-plates .title::before {
+    content: "Small Plates";
+}
+.hero-image {
+    background-image: url('../images/hero-image.png');
+    background-size: cover;
+    max-width:100%;
+    position: relative;
+    z-index: 0;
+}
+.title {
+    position: relative;
+    z-index: 1;
+}
+.menu-item {
+    position: relative;
+}
+.menu-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.menu-item h4 {
+    margin: 10px 0;
+}
+.menu-item p {
+    font-size: 14px;
+}
+.menu-item button {
+    background-color: #A54B4B;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.menu-item button:hover {
+    background-color: #A54B4B;
+}
+.menu-item .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.menu-item.essentials .title::before {
+    content: "Essentials";
+}
+.menu-item.small-plates .title::before {
+    content: "Small Plates";
+}
+.welcome-section {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.welcome-section img {
+    max-width: 100%;
+    margin-top: -20px; 
+}
+.welcome-section h1 {
+    margin-top: 0;
+    color: white;
+}
+.welcome-section .title {
+    margin-top: -20px;
+    color: white; 
+}  
+.welcome-to-kasama-title {
+    color: white;
+    text-align: center;
+}    
+.book-table-button {
+    background-color: #A54B4B;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.book-table-button:hover {
+    background-color: #A54B4B;
+}
+.book-table-button {
+        background-color: #A54B4B;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+}      
+.book-table-button:hover {
+        background-color: #A54B4B;        
+}  
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+@media screen and (max-width: 648px) {
+    .nav a {
+        display: none;
+    }  
+    .nav button {
+        display: inline;
+    }
+}
+.featured-items-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.featured-item {
+    padding: 20px;
+    border-radius: 10px;
+}
+.featured-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.featured-item h4 {
+    margin: 10px 0;
+}
+.featured-item p {
+    font-size: 14px;
+}
+.menu-items-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.menu-item {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.menu-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.menu-item h4 {
+    margin: 10px 0;
+}
+.menu-item p {
+    font-size: 14px;
+}
+.buy-now-button {
+    background-color: #A54B4B;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.buy-now-button:hover {
+    background-color: #A54B4B;
+}
+.bgcolor-cream {
+    background-color:#F0CEA7;
+}
+.reserve-table {
+    margin-top: -140px;
+}
+section {
+    padding: 20px;
+}
+section {
+    display: block;
+}
+body
+{
+    box-sizing: border-box;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #000;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: #000;
+    color: white;
+}
+@media screen and (max-width: 600px) {
+    .topnav a {
+    float: none;
+    width: 100%;
+ }
+ .menu-items-container {
+    grid-template-columns:1fr;  
+ }
+.featured-items-container {
+    grid-template-columns:1fr; 
+}  
+.book-table-button {
+    grid-template-columns:1fr;
+}  
+.grid-container-2, .grid-container {
+    grid-template-columns:1fr;
+    color: black;
+}
+}
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+  }
+  #panel {
+    padding: 50px;
+    display: none;
+  }
